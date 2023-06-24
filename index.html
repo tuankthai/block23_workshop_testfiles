@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- import JavaScript -->
+  <script defer src="script.js"></script>
+
+  <!-- import CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>PuppyBowl</title>
+</head>
+
+<body>
+
+  <!-- form to add new players -->
+  <div id="new-player-form">
+    <form action="">
+
+      <h3>New Player Input Form:</h3><br>
+
+      <label for="">name: </label><br>
+      <input type="text" name="" id="name"><br><br>
+
+      <label for="">breed: </label><br>
+      <input type="text" name="" id="breed"><br><br>
+
+      <!-- this should be enum value -->
+      <label for="">status: </label> <br>
+      <select id="status" name="status"><br>
+        <option value="bench">bench</option>
+        <option value="field">field</option>
+      </select><br><br>
+
+      <label for="">image: </label><br>
+      <input type="text" name="" id="image"><br><br>
+
+      <button id="add_player" value="Add new player">add new player</button>
+
+    </form>
+  </div>
+  <h2 id="page-h2">Meet the furry players</h2>
+  <!-- container for all players -->
+  <div id="all-players-container"></div>
+
+</body>
+
+</html>

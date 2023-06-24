@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.playerClass{
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  border-radius: 10%;
+  background-color: #A2AD59;
+  border-color: black;
+  margin: 2em;
+}
+
+img{
+  height: 25em;
+  width: 20em;
+}
+
+#all-players-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#image{
+  width: 50em;
+}
+
+#new-player-form {
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  margin-left: 2em;
+
+}
+
+button{
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+
+}
+
+input{
+  height: 2em;
+}
+
+select{
+  height: 2em;
+}
+
+.player-details{
+  /* background-color: #BEB7A4; */
+  background-color: #f7ad50;
+  border-radius: 0.5em;
+  padding: 1.5em;
+}
+
+ body{
+  background-image: url("american-football-field.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+ }
+
+ #page-h2{
+  text-align: center;
+  font-size: 3rem;
+  color: #c9e265;
+ }
